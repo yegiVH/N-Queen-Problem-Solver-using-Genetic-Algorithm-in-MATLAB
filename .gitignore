@@ -1,0 +1,56 @@
+# ==========================
+# MATLAB / Octave
+# ==========================
+
+# Autosave and backup files
+*.asv
+*.m~
+*.autosave
+*.bak
+
+# Compiled or generated files
+*.mex*
+*.mat
+*.log
+*.slxc
+*.slprj/
+*.mdl.r*
+*.fig
+
+# Project and workspace metadata
+*.prj
+*.mldatx
+*.mlproj
+*.mlprojbackup
+
+# ==========================
+# IDE / Editor settings
+# ==========================
+
+# VS Code
+.vscode/
+
+# MATLAB Editor Backup
+*.asv
+
+# JetBrains / IntelliJ
+.idea/
+
+# ==========================
+# OS-specific
+# ==========================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================
+# Project results / outputs
+# ==========================
+
+# Ignore everything inside results
+results/*
+
+# But keep .gitkeep and PNG files
+!results/.gitkeep
+!results/*.png
