@@ -28,4 +28,5 @@ src/
   TournamentSelection.m     % tournament parent selection
 
 results/
-  % optional: saved solutions / plots
+  % saved solutions / plots
+
